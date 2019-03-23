@@ -1,1 +1,183 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800,900&subset=cyrillic");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.wrap {
+  max-width: 1170px;
+  margin: 0 auto;
+  text-align: center;
+  overflow: hidden;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+li, a {
+  text-decoration: none;
+  list-style: none;
+  color: #ffffff;
+}
+
+body {
+  color: #ffffff;
+  font-family: Montserrat, sans-serif;
+  background-color: black;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 15px;
+  padding-bottom: 16px;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+}
+
+nav li {
+  margin-left: 44px;
+}
+
+.social-resurs-header ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+}
+
+.social-resurs-header ul li {
+  padding: 0 15px;
+}
+
+.social-resurs-header ul li:not(:last-child) {
+  border-right: 1px solid #3a3a3a;
+  height: 20px;
+}
+
+.slider {
+  background-image: url(/img/vider.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.slider-wrap {
+  position: relative;
+  height: 642px;
+}
+
+.slider-title {
+  background-color: #f32121;
+  width: 428px;
+  height: 428px;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  margin-left: -214px;
+  top: 50%;
+  margin-top: -214px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.slider-title1 {
+  font-size: 36px;
+  font-weight: 300;
+}
+
+.slider-title2 {
+  font-size: 46px;
+  font-weight: 900;
+  text-transform: uppercase;
+  margin-top: 32px;
+  margin-bottom: 30px;
+}
+
+.pos {
+  position: absolute;
+  z-index: 5;
+  left: 50%;
+}
+
+.slider-img1 {
+  margin-top: 87px;
+  margin-left: -732px;
+}
+
+.slider-img2 {
+  margin-left: -375px;
+  margin-top: 90px;
+}
+
+.slider-img3 {
+  bottom: 0;
+  margin-bottom: 36px;
+  margin-left: -47px;
+}
+
+.slider-img4 {
+  margin-top: 105px;
+  margin-left: 50px;
+}
+
+.slider-img5 {
+  bottom: -4px;
+  margin-left: 185px;
+  position: absolute;
+  z-index: 5;
+  right: 0%;
+}
+
+.slider-img6 {
+  margin-left: 458px;
+  margin-top: 50px;
+}
+
+.slogan-order {
+  padding-top: 106px;
+  padding-bottom: 37px;
+}
+
+.order {
+  font-size: 42px;
+  font-weight: 300;
+  margin-bottom: 38px;
+}
+
+.order-action {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+/*# sourceMappingURL=style.css.map */
